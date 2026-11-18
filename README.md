@@ -134,7 +134,11 @@ channel's field at `fb` at the nerve, yet the TSINS threshold only moves from 0.
 Over 5 → 25 mm the TSINS threshold rises 9.1-fold (0.83 → 7.51 mA) and the biphasic control
 14-fold (1.00 → 14.0 mA), while TIS at 3 kHz rises 12-fold by 20 mm (3.03 → 36.7 mA) and TIS
 at 8 kHz exceeds 40 mA beyond 10 mm. TSINS is the only one of the three that still activates
-the axon within the 10 mA protocol range at every depth tested.
+the axon within the 10 mA protocol range at every depth tested (7.51 mA at 25 mm). It also
+has the lowest threshold of the three at every depth, and its margin over the biphasic
+control widens with depth — the TSINS / biphasic threshold ratio falls from 0.83 at 5 mm to
+0.54 at 25 mm. Thresholds are searched up to a 40 mA ceiling (`sweep.threshold(hi=40.0)`);
+"beyond 40 mA" means no threshold was found below it.
 
 ![Depth effect](figures/fig5_depth.png)
 
