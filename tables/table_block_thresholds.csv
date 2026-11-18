@@ -1,0 +1,17 @@
+carrier,fb,block_threshold_mA,blocker_current_mA
+blocker_1ch,3000.0,14.162,8.851
+blocker_1ch,4000.0,17.548,10.968
+blocker_1ch,5000.0,20.221,12.638
+blocker_1ch,6000.0,22.342,13.964
+blocker_1ch,7000.0,24.084,15.052
+blocker_1ch,8000.0,25.508,15.943
+blocker_1ch,9000.0,26.775,16.734
+blocker_1ch,10000.0,27.883,17.427
+blocker,3000.0,,
+blocker,4000.0,,
+blocker,5000.0,,
+blocker,6000.0,,
+blocker,7000.0,,
+blocker,8000.0,,
+blocker,9000.0,,
+blocker,10000.0,,
